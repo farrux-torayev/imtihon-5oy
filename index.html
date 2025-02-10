@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Imtihon</title>
+  </head>
+  <body>
+    <header>
+      <!-- tepadagi rasm -->
+      <div class="flex justify-center cursor-pointer">
+        <img src="./assets/images/image nav.png" alt="" />
+      </div>
+
+      <section class="bg-[#da002b]">
+        <div class="container">
+          <div class="wrapper flex items-center justify-between h-[56px]">
+            <ul class="w-[651px] flex gap-[30px] items-center text-white">
+              <li
+                class="hover:bg-inherit hover:text-white cursor-pointer text-[#da002b] w-[162px] py-[2px] px-[10px] border rounded-[10px] bg-white"
+              >
+                <a
+                  class="flex justify-center items-center h-[32px] text-[16px]"
+                  href=""
+                >
+                  0% Muddatli to'lov
+                </a>
+              </li>
+              <li
+                class="hover:bg-white hover:text-[#da002b] cursor-pointer w-[115px] py-[2px] px-[10px] border rounded-[10px]"
+              >
+                <a
+                  class="flex justify-center items-center h-[32px] text-[16px]"
+                  href=""
+                >
+                  Chegirmalar
+                </a>
+              </li>
+              <li
+                class="hover:bg-inherit hover:text-white cursor-pointer text-[#da002b] w-[134px] py-[2px] px-[10px] border rounded-[10px] bg-white"
+              >
+                <a
+                  class="flex justify-center items-center h-[32px] text-[16px]"
+                  href=""
+                >
+                  Yutuqli o'yinlar
+                </a>
+              </li>
+              <li>
+                <a
+                  class="hover:text-[#908e8e] flex justify-center items-center h-[32px] text-[16px]"
+                  href=""
+                >
+                  Sayt xaritasi
+                </a>
+              </li>
+            </ul>
+            <ul class="flex items-center gap-[30px]">
+              <li>
+                <a
+                  class="text-white ml-[170px] hover:text-[#908e8e] font-[600]"
+                  href=""
+                  >+998 (71) 202 2021
+                </a>
+              </li>
+
+              <li
+                class="hover:bg-inherit hover:text-white cursor-pointer text-[#da002b] w-[147px] py-[2px] px-[10px] border rounded-[10px] bg-white mr-[20px]"
+              >
+                <a
+                  class="flex justify-center items-center h-[32px] text-[16px]"
+                  href=""
+                  >olcha da soting</a
+                >
+              </li>
+            </ul>
+            <ul class="flex gap-[30px] text-white">
+              <li class="border-l pl-[28px]">
+                <a class="text-[#ffffffb3] hover:text-white" href="">Ўзб</a>
+              </li>
+              <li>
+                <a class="text-[#ffffffb3] hover:text-white" href="">O'zb</a>
+              </li>
+              <li class="border-r pr-[20px]">
+                <a class="text-[#ffffffb3] hover:text-white" href="">Rus</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- NAVBAR -->
+
+      <nav class="relative">
+        <div class="container py-[28px]">
+          <div
+            class="navbar wrapper flex items-center justify-between h-[60px]"
+          >
+            <div class="h-[56px] flex items-center justify-normal">
+              <img
+                class="w-[102px] h-[30px] mr-[50px]"
+                src="./assets/images/image.png"
+                alt=""
+              />
+            </div>
+            <div class="katalog flex justify-center rounded-[12px] h-[48px]">
+              <div class="flex items-center py-[15px] px-[28px]">
+                <div class="linea mr-[19px]">
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+                </div>
+                <p class="hover:text-red-600">Katalog</p>
+              </div>
+            </div>
+
+            <div
+              class="border h-[47px] w-[741px] mr-[40px] ml-[24px] rounded-[15px] bg-[#f2f2f2]"
+            >
+              <input
+                class="ml-[20px] w-[660px] h-[45px] outline-none bg-[#f2f2f2]"
+                type="text"
+                placeholder="Katalog bo'yicha qidirish"
+              />
+              <button
+                class="w-[75px] h-[45px] flex justify-center items-center relative mx-[12px] top-[-45px] left-[632px] bg-[#da002b] rounded-[15px]"
+              >
+                <img class="" src="./assets/images/search.png" alt="" />
+              </button>
+            </div>
+
+            <ul class="style flex w-[330px] gap-[40px]">
+              <li class="title">
+                <a class="w-[67px] flex justify-center" href="">
+                  <img
+                    class="taqosla w-[24px] h-[24px]"
+                    src="./assets/svg/taqoslash.svg"
+                    alt=""
+                /></a>
+                <span class="text-[14px] font-[400]">Taqqoslash</span>
+              </li>
+              <li class="title">
+                <a class="w-[60px] flex justify-center" href=""
+                  ><img
+                    class="taqosla flex justify-center w-[24px] h-[24px]"
+                    src="./assets/images/heart.png"
+                    alt=""
+                /></a>
+                <span class="text-[14px] font-[400]">Sevimlilar</span>
+              </li>
+              <li class="title">
+                <a class="w-[55px] flex justify-center" href="">
+                  <img
+                    class="taqosla flex justify-center items-center w-[24px] h-[24px]"
+                    src="./assets/images/cart.png"
+                    alt=""
+                /></a>
+                <span class="text-[14px] font-[400]">Savatcha</span>
+              </li>
+              <li class="title">
+                <img
+                  class="taqosla title w-[34px] h-[24px]"
+                  src="./assets/svg/admin.svg"
+                  alt=""
+                />
+                <span class="text-[14px] font-[400]">Kirish</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+
+    <main>
+      <section>
+        <div class="container p-[0px]">
+          <div class="wrapper">
+            <div class="flex justify-between mb-[50px]">
+              <div class="swiper" id="swiper1">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./assets/images/image swiper1.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/image swiper2.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/image swiper3.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/image swiper4.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/image swiper5.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-right1">
+                  <img class="" src="./assets/svg/right.svg" alt="" />
+                </div>
+                <div class="swiper-button-left1">
+                  <img src="./assets/svg/left.svg" alt="" />
+                </div>
+              </div>
+              <div class="border-2 border-red-500 rounded-lg p-4">
+                <div class="flex gap-[50px]">
+                  <p class="font-bold text-lg text-black">Kun mahsuloti</p>
+                  <div id="timer" class="cursor-pointer">09:00:00</div>
+                </div>
+
+                <div class="swiper" id="swiper3">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide flex items-start bg-white">
+                      <div class="timer text-gray-700"></div>
+
+                      <img
+                        src="./assets/images/image shokalad.png"
+                        alt="Товар"
+                        class=""
+                      />
+                      <p
+                        class="font-medium text-black ml-[0px] block text-start"
+                      >
+                        Dubaiskii-sokolad-Fix-Dessert-Chocolatier(Orginal)
+                      </p>
+                      <p class="font-[700] text-[18px] text-red-600">
+                        399 000 so'm
+                      </p>
+                      <p
+                        class="bg-yellow-400 text-black px-3 py-1 rounded-[15px]"
+                      >
+                        47 000 so'm x 12 oy
+                      </p>
+                    </div>
+
+                    <div class="swiper-slide flex items-start bg-white">
+                      <img
+                        src="./assets/images/image kreslo.png"
+                        alt="Товар"
+                        class="w-full m-2"
+                      />
+                      <p class="font-medium text-black">
+                        Фен для волос Dyson HD08
+                      </p>
+                      <p class="font-bold text-lg text-black">
+                        12 663 742 so'm
+                      </p>
+                      <p
+                        class="bg-yellow-400 text-black px-3 py-1 rounded-lg inline-block"
+                      >
+                        1 484 000 so'm x 12 oy
+                      </p>
+                    </div>
+
+                    <div class="swiper-slide flex items-start bg-white">
+                      <div></div>
+                      <img
+                        src="./assets/images/image moshinka.png"
+                        alt="Товар"
+                        class="w-[250px] h-[250px] my-2"
+                      />
+                      <p class="font-medium text-black">
+                        Kesuvchi apparat SHINON ZM-680
+                      </p>
+                      <p class="font-bold text-lg text-black">276 680 so'm</p>
+                      <p
+                        class="bg-yellow-400 text-black px-3 py-1 rounded-lg inline-block"
+                      >
+                        32 000 so'm x 12 oy
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-pagination absolute left-1/2 bottom-[-20px] transform -translate-x-1/2"
+                ></div>
+              </div>
+            </div>
+
+            <div class="sub-wrapper w-[1400px]">
+              <div class="swiper" id="swiper2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image .png" alt="Televidenie" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Televizor, foto-video va audio
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 2.png" alt="Noutbuk" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Noutbuk, printer, kompyuterlar
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 3.png" alt="Telefon" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Smartfon, telefon, gadjet
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="../assets/images/image 4.png" alt="Texnika" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Maishiy texnika
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="../assets/images/image 5.png" alt="Oshxona" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Barchasi oshxona uchun
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="../assets/images/image 6.png" alt="Sport" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Sport anjomlari
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="../assets/images/image 7.png" alt="Go‘zallik" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Go‘zallik va salomatlik
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="../assets/images/image 8.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Chet eldan tovarlar
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="../assets/images/image 9.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Avto jihozlar
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="././assets/images/image 10.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Barchasi ofis, uy va bog‘ uchun
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="././assets/images/image 11.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Bolalar uchun o‘yinchoq va mahsulotlar
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 12.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Kiyim va poyabzallar
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 13.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Kitoblar
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 14.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Mebel
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 15.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Geymerlar uchun
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 16.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Barchasi ta’mirlash va qurilish uchun
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 17.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Kantselyariya tovarlari
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 18.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Elektrotransport
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 19.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Sovg‘alar va suvenirlar
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 20.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Aqlli uy
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 21.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Qulay takliflar
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 22.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Oziq-ovqat maxsulotlari
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 23.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Olcha Qo‘ldan
+                    </p>
+                  </div>
+                  <div class="swiper-slide hover">
+                    <img src="./assets/images/image 24.png" alt="Tovarlar" />
+                    <p class="w-[120px] h-[60px] text-[14px] font-[700]">
+                      Avtomobillar
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-button-right">
+                  <img class="" src="./assets/svg/right.svg" alt="" />
+                </div>
+                <div class="swiper-button-left">
+                  <img src="./assets/svg/left.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="wrapper flex justify-between mb-[100px]">
+            <div class="overflow-hidden">
+              <img
+                class="info rounded-[15px]"
+                src="./assets/images/image reklama.png"
+                alt=""
+              />
+            </div>
+            <div class="overflow-hidden">
+              <div class="info rounded-[15px]">
+                <img
+                  class="rounded-[15px]"
+                  src="./assets/images/image reklama2.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="overflow-hidden">
+              <div class="info">
+                <img
+                  class="rounded-[15px]"
+                  src="./assets/images/image reklama3.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="wrapper-camp"></div>
+        </div>
+      </section>
+      <section>
+        <div class="container mb-[40px]">
+          <div class="wrapper">
+            <div class="flex justify-center">
+              <img
+                class="olcha"
+                src="./assets/images/image sotish.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="bg-[#F2F2F2]">
+      <div class="container">
+        <div class="wrapper flex items-center justify-around">
+          <div class="w-[409px]">
+            <p class="font-[700] text-[20px] mb-[32px]">
+              Bizning mobil ilovamiz AppGallery, App store va Google play-da
+            </p>
+            <div
+              class="w-[409px] h-[112px] flex flex-wrap items-center gap-[10px]"
+            >
+              <img
+                class="bg-white hover:bg-[#908e8e] rounded-[5px] px-[15px] py-[5px]"
+                src="./assets/icons/appstore.BZyLL41o.svg"
+                alt=""
+              />
+              <img
+                class="bg-white hover:bg-[#908e8e] rounded-[5px] px-[15px] py-[8px]"
+                src="./assets/icons/googleplay.CcPmyygm.svg"
+                alt=""
+              />
+              <img
+                class="bg-white hover:bg-[#908e8e] rounded-[5px]"
+                src="./assets/icons/app-gallery.5qhZx5qb.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="">
+            <img
+              class="pt-[30px]"
+              src="./assets/images/image footer.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container py-[64px]">
+        <div class="wrapper flex justify-between mb-[px]">
+          <div class="h-[302px] w-[220px]">
+            <img
+              class="w-[102px] mb-[30px] h-[30px]"
+              src="./assets/images/image.png"
+              alt=""
+            />
+
+            <ul>
+              <li class="mb-[10px]">
+                <a class="text-[16px] font-[500]" href="">
+                  Qo'llab-quvvatlash raqami
+                </a>
+              </li>
+              <li>
+                <a
+                  class="font font-[700] text-[20px] hover:text-red-600 font-feature-settings: pnum on, lnum on"
+                  href=""
+                >
+                  +998 (71) 202 202 1
+                </a>
+              </li>
+              <li>
+                <a class="flex gap-[10px] mt-[24px]" href="">
+                  <img src="./assets/icons/Без названия (1).svg" alt="" />
+                  Qozitarnov, Toshkent
+                </a>
+              </li>
+              <li>
+                <a class="flex gap-[10px] mt-[10px] hover:text-red-600" href="">
+                  <img
+                    class="w-[20px]"
+                    src="./assets/icons/email-1-svgrepo-com.svg"
+                    alt=""
+                  />
+                  info@olcha.uz
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex justify-between w-[513px] h-[302px]">
+            <ul class="w-[256px]">
+              <li class="mb-[30px]">
+                <a class="text-[20px] font-[700] text-[#DA002B]" href=""
+                  >Ma`lumot</a
+                >
+              </li>
+              <li class="mb-[6px]">
+                <a class="text-[16px] font-[500] hover:text-[#9999]" href=""
+                  >Biz haqimizda</a
+                >
+              </li>
+              <li class="mb-[40px]">
+                <a
+                  class="hover:text-[#9999] text-[16px] font-[500] font-feature-settings: pnum on, lnum on"
+                  href=""
+                >
+                  Bo‘sh ish o‘rinlari
+                </a>
+              </li>
+              <li class="mb-[10px]">
+                <a
+                  class="hover:text-[#9999] text-[16px] font-[500] gap-[10px]"
+                  href=""
+                >
+                  Ommaviy oferta
+                </a>
+              </li>
+              <li class="mb-[10px]">
+                <a class="hover:text-[#9999] text-[16px] font-[500]" href="">
+                  To‘lovni qaytarish va tovarlarni almashtirish
+                </a>
+              </li>
+              <li>
+                <a class="hover:text-[#9999] text-[16px] font-[500]" href="">
+                  Muddatli to’lov shartlari
+                </a>
+              </li>
+            </ul>
+            <ul class="w-[256px]">
+              <li class="mt-[60px] mb-[8px]">
+                <a class="hover:text-[#9999] text-[16px] font-[500]" href=""
+                  >Eco-friendly</a
+                >
+              </li>
+              <li class="mb-[8px]">
+                <a class="hover:text-[#9999] text-[16px] font-[500]" href="">
+                  Shaxsiy ma‘lumotlar bilan ishlash bo‘yicha Siyosat
+                </a>
+              </li>
+              <li class="mb-[8px]">
+                <a class="hover:text-[#9999] text-[16px] font-[500]" href="">
+                  To‘lov va yetkazib berish
+                </a>
+              </li>
+              <li class="mb-[8px]">
+                <a class="hover:text-[#9999] text-[16px] font-[500]" href="">
+                  Bonus va aksiyalar
+                </a>
+              </li>
+              <li class="mb-[8px]">
+                <a class="hover:text-[#9999] text-[16px] font-[500]" href="">
+                  Mahsulotlarni Olcha.uz da sotmoqchi bo’lgan sotuvchilar uchun
+                  oferta.
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="grid grid-cols-3 w-[356px] h-[128px]">
+            <a
+              class="w-[107px] h-[56px] border flex items-center justify-center bg-white hover:bg-[#908e8e] rounded-[15px]"
+              href=""
+            >
+              <img
+                class="w-[80px] h-[30px]"
+                src="./assets/icons/uzumbank.BHyRM-1y.svg"
+                alt=""
+              />
+            </a>
+            <a
+              class="w-[107px] h-[56px] border flex items-center justify-center bg-white hover:bg-[#908e8e] rounded-[15px]"
+              href=""
+            >
+              <img
+                class="w-[80px] h-[30px]"
+                src="./assets/icons/Без названия.svg"
+                alt=""
+              />
+            </a>
+            <a
+              class="w-[107px] h-[56px] border flex items-center justify-center bg-white hover:bg-[#908e8e] rounded-[15px]"
+              href=""
+            >
+              <img
+                class="w-[46px] h-[28px]"
+                src="./assets/icons/humo-bg.B29viszN.svg"
+                alt=""
+              />
+            </a>
+            <a
+              class="w-[107px] h-[56px] border flex items-center justify-center bg-white hover:bg-[#908e8e] rounded-[15px]"
+              href=""
+            >
+              <img
+                class="w-[80px] h-[24px]"
+                src="./assets/icons/click.ByhH4ulA.svg"
+                alt=""
+              />
+            </a>
+            <a
+              class="w-[107px] h-[56px] border flex items-center justify-center bg-white hover:bg-[#908e8e] rounded-[15px]"
+              href=""
+            >
+              <img
+                class="w-[80px] h-[24px]"
+                src="./assets/icons/payme.DLp2GdHd.svg"
+                alt=""
+              />
+            </a>
+            <a
+              class="w-[107px] h-[56px] border flex items-center justify-center bg-white hover:bg-[#908e8e] rounded-[15px]"
+              href=""
+            >
+              <img
+                class="w-[80px]h-[20px]"
+                src="./assets/icons/paynet.C8TMfSoa.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container py-[30px]">
+        <div class="flex justify-between">
+          <div class="flex gap-[70px] ml-[30px]">
+            <span class="text-[#9999] hover:text-red-700 cursor-pointer">
+              © 2017-2025. ООО "Olcha store"
+            </span>
+            <span class="text-[#9999] hover:text-red-700 cursor-pointer"
+              >Ommaviy oferta</span
+            >
+            <span class="text-[#9999] hover:text-red-700 cursor-pointer"
+              >Maxfiylik siyosati</span
+            >
+          </div>
+          <div class="flex gap-[16px]">
+            <a class="title" href="">
+              <img
+                class="image w-[32px]"
+                src="./assets/svg/faecbook.svg"
+                alt=""
+              />
+            </a>
+            <a class="title" href="">
+              <img
+                class="image w-[32px]"
+                src="./assets/svg/instagram.svg"
+                alt=""
+              />
+            </a>
+            <a class="title" href="">
+              <img
+                class="image w-[32px]"
+                src="./assets/svg/tekigram.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      const swiper1 = new Swiper("#swiper1", {
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: "#swiper1 .swiper-button-left1",
+          prevEl: "#swiper1 .swiper-button-right1",
+        },
+        pagination: {
+          el: "#swiper1 .swiper-pagination",
+          clickable: true,
+        },
+      });
+
+      const swiper2 = new Swiper("#swiper2", {
+        slidesPerView: 10,
+
+        navigation: {
+          nextEl: "#swiper2 .swiper-button-left",
+          prevEl: "#swiper2 .swiper-button-right",
+        },
+        pagination: {
+          el: "#swiper2 .swiper-pagination",
+          clickable: true,
+        },
+      });
+
+      const swiper = new Swiper("#swiper3", {
+        slidesPerView: 1,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
