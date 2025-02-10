@@ -29,7 +29,7 @@ fetchProducts();
 
 async function fetchProducts() {
   try {
-    const result = await fetch("http://localhost:5000/products");
+    const result = await fetch("https://dummyjson.com/products");
     const res = await result.json();
 
     const products = res.data;
