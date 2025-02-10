@@ -37,7 +37,7 @@ async function fetchProducts() {
 
     products.forEach((product) => {
       wrapperEl.appendChild(
-        createCard(product.name, product.price, product.image)
+        createCard(product.title, product.price, product.images)
       );
     });
   } catch (err) {
@@ -46,15 +46,15 @@ async function fetchProducts() {
   }
 }
 
-function createCard(name, price, image) {
+function createCard(title, price, images) {
   const newEl = document.createElement("div");
   newEl.classList.add("card");
   const newdivEl = document.createElement("button");
   newdivEl.classList.add("card2");
   newEl.appendChild(newdivEl);
   newEl.innerHTML = `
-        <img src="${image}" alt="">
-        <p class="name">${name}</p>
+        <img src="${images}" alt="">
+        <p class="name">${title}</p>
         <p class="price">${price}$</p>
         <p class="pay">1  974  000 so'm x 12 oy</p>
         <p class="stock"> <span class="savat"> <img class="" src="./assets/images/cart.png" alt=""> </span> <span class="category"> Muddatli to'lov </span> </p>`;
